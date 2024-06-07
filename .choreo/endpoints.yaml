@@ -4,5 +4,5 @@ endpoints:
  - name: go mtls server
    port: 8443
    type: REST
-   networkVisibility: Public
+   networkVisibility: Project
    context: /test
