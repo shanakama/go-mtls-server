@@ -1,0 +1,8 @@
+
+version: 0.1
+endpoints:
+ - name: go mtls server
+   port: 8443
+   type: REST
+   networkVisibility: Public
+   context: /test
