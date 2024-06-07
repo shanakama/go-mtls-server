@@ -15,7 +15,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	// Load server's certificate and private key
-	serverCert, err := tls.LoadX509KeyPair("server.crt", "server.key")
+	serverCert, err := tls.LoadX509KeyPair("/server.crt", "/server.key")
 	if err != nil {
 		log.Fatalf("server: loadkeys: %s", err)
 	}
