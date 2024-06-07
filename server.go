@@ -21,7 +21,7 @@ func main() {
 	}
 
 	// Load CA certificate
-	caCert, err := ioutil.ReadFile("ca.crt")
+	caCert, err := ioutil.ReadFile("/ca.crt")
 	if err != nil {
 		log.Fatalf("server: readca: %s", err)
 	}
